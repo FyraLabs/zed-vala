@@ -9,3 +9,7 @@ repository = "https://github.com/FyraLabs/zed-vala"
 [grammars.vala]
 repository = "https://github.com/vala-lang/tree-sitter-vala"
 commit = "8f690bfa639f2b83d1fb938ed3dd98a7ba453e8b"
+
+[language_servers.vls]
+name = "Vala Language Server"
+language = "Vala"
