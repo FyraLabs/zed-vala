@@ -1,6 +1,7 @@
 # zed-vala
 
 [Vala](https://vala.dev) support for Zed.
+Please note that vala-language-server is required to be installed on the system at this time.
 
 # Features
 - LSP (via [vala-language-server](https://github.com/vala-lang/vala-language-server))
