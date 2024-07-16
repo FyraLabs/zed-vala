@@ -1,9 +1,9 @@
 [package]
 name = "zed_vala"
-version = "0.0.1"
+version = "0.1.0"
 edition = "2021"
 publish = false
-license = "Apache-2.0"
+license = "GPL-3.0-only"
 
 [lib]
 path = "src/vala.rs"
