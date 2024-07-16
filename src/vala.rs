@@ -1,7 +1,4 @@
-use std::fs;
-use zed::lsp::CompletionKind;
-use zed::{serde_json, CodeLabel, CodeLabelSpan, LanguageServerId};
-use zed_extension_api::settings::LspSettings;
+use zed::LanguageServerId;
 use zed_extension_api::{self as zed, Result};
 
 struct ValaExtension;
