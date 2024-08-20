@@ -1,0 +1,16 @@
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  release:
+    name: Release Zed Extension
+    runs-on: ubuntu-latest
+    steps:
+      - uses: huacnlee/zed-extension-action@v1
+        with:
+          extension-name: vala
+          push-to: FyraLabs/zed-extensions
+        env:
+          COMMITTER_TOKEN: ${{ secrets.ZED_RELEASER_COMMITTER_TOKEN }}
