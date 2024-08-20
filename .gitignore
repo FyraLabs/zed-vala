@@ -4,3 +4,4 @@ grammars
 target
 Cargo.lock
 test.vala
+test.vapi

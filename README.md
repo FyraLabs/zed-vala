@@ -2,11 +2,11 @@
 
 [Vala](https://vala.dev) support for Zed.
 Please note that [vala-language-server](https://github.com/vala-lang/vala-language-server) is required to be installed on the system at this time.
-For fomatting, you will need to install [uncrustify](https://github.com/uncrustify/uncrustify) on the system.
+For formatting, you will need to install [uncrustify](https://github.com/uncrustify/uncrustify) on the system.
 
 # Features
 - LSP (via vala-language-server)
-- Formating (via LSP using uncrustify)
+- Formatting (via LSP using uncrustify)
 - Folding
 - Syntax highlighting
 - Outline
