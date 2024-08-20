@@ -1,6 +1,6 @@
 id = "vala"
 name = "Vala"
-version = "0.1.0"
+version = "0.2.0"
 schema_version = 1
 authors = ["Lleyton Gray <lleyton@fyralabs.com>"]
 description = "Vala support."
