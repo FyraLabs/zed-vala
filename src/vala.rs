@@ -6,7 +6,7 @@ struct ValaExtension;
 impl ValaExtension {
     fn language_server_binary_path(
         &mut self,
-        language_server_id: &LanguageServerId,
+        _language_server_id: &LanguageServerId,
         worktree: &zed::Worktree,
     ) -> Result<String> {
         if let Some(path) = worktree.which("vala-language-server") {

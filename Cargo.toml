@@ -1,6 +1,6 @@
 [package]
 name = "zed_vala"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 publish = false
 license = "GPL-3.0-only"
@@ -10,4 +10,4 @@ path = "src/vala.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
-zed_extension_api = "0.0.6"
+zed_extension_api = "0.7.0"
