@@ -10,7 +10,7 @@ jobs:
     name: Release Zed Extension
     runs-on: ubuntu-latest
     steps:
-      - uses: huacnlee/zed-extension-action@v1
+      - uses: huacnlee/zed-extension-action@v2
         with:
           extension-name: vala
           push-to: FyraLabs/zed-extensions
