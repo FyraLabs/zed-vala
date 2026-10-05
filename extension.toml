@@ -7,8 +7,8 @@ description = "Vala support."
 repository = "https://github.com/FyraLabs/zed-vala"
 
 [grammars.vala]
-repository = "https://github.com/vala-lang/tree-sitter-vala"
-commit = "8f690bfa639f2b83d1fb938ed3dd98a7ba453e8b"
+repository = "https://github.com/hugmouse/tree-sitter-vala-fork"
+commit = "b512130a32dd9c76183c265aae82f2624a05c700"
 
 [language_servers.vls]
 name = "Vala Language Server"
